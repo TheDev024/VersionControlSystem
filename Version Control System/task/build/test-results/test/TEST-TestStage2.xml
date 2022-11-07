@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestStage2" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-07T16:46:38" hostname="DESKTOP-JA25RKB" time="0.688">
+  <properties/>
+  <testcase name="start" classname="TestStage2" time="0.688"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+The username is Max.
+?[1;31m
+Start test 2?[0m
+The file 'abc.txt' is tracked.
+?[1;31m
+Start test 3?[0m
+These are SVCS commands:
+config     Get and set a username.
+add        Add a file to the index.
+log        Show commit logs.
+commit     Save changes.
+checkout   Restore a file.
+These are SVCS commands:
+config     Get and set a username.
+add        Add a file to the index.
+log        Show commit logs.
+commit     Save changes.
+checkout   Restore a file.
+?[1;31m
+Start test 4?[0m
+Please, tell me who you are.
+The username is Max.
+The username is Max.
+The username is John.
+The username is John.
+?[1;31m
+Start test 5?[0m
+Add a file to the index.
+The file 'file514.txt' is tracked.
+Tracked files:
+file514.txt
+The file 'file909.txt' is tracked.
+Tracked files:
+file514.txt
+file909.txt
+Can't find 'file28.txt'.
+?[1;31m
+Start test 6?[0m
+Show commit logs.
+?[1;31m
+Start test 7?[0m
+Save changes.
+?[1;31m
+Start test 8?[0m
+Restore a file.
+?[1;31m
+Start test 9?[0m
+'wrongArg548' is not a SVCS command.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

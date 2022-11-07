@@ -1,0 +1,50 @@
+[1;31m
+Start test 1[0m
+The username is Max.
+[1;31m
+Start test 2[0m
+ The file 'abc.txt' is tracked.
+[1;31m
+Start test 3[0m
+These are SVCS commands:
+$config     Get and set a username.
+%add        Add a file to the index.
+log        Show commit logs.
+commit     Save changes.
+checkout   Restore a file.
+These are SVCS commands:
+$config     Get and set a username.
+%add        Add a file to the index.
+log        Show commit logs.
+commit     Save changes.
+checkout   Restore a file.
+[1;31m
+Start test 4[0m
+Please, tell me who you are.
+The username is Max.
+The username is Max.
+The username is John.
+The username is John.
+[1;31m
+Start test 5[0m
+Add a file to the index.
+$The file 'file514.txt' is tracked.
+Tracked files:
+file514.txt
+$The file 'file909.txt' is tracked.
+Tracked files:
+file514.txt
+file909.txt
+Can't find 'file28.txt'.
+[1;31m
+Start test 6[0m
+Show commit logs.
+[1;31m
+Start test 7[0m
+Save changes.
+[1;31m
+Start test 8[0m
+Restore a file.
+[1;31m
+Start test 9[0m
+&'wrongArg548' is not a SVCS command.
