@@ -394,6 +394,18 @@ files:
         }
     }
   learner_created: false
+- name: src/untracked_file.txt
+  visible: true
+  learner_created: true
+- name: src/new_file.txt
+  visible: true
+  learner_created: true
+- name: src/tracked_file.txt
+  visible: true
+  learner_created: true
+- name: src/file.txt
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/learn/step/13044#comment
 status: Unchecked
 record: -1
