@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestStage2" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-07T16:46:38" hostname="DESKTOP-JA25RKB" time="0.688">
+<testsuite name="TestStage3" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-11T19:22:35" hostname="DESKTOP-JA25RKB" time="2.133">
   <properties/>
-  <testcase name="start" classname="TestStage2" time="0.688"/>
+  <testcase name="start" classname="TestStage3" time="2.133"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 The username is Max.
@@ -32,26 +32,50 @@ The username is John.
 ?[1;31m
 Start test 5?[0m
 Add a file to the index.
-The file 'file514.txt' is tracked.
+The file 'file298.txt' is tracked.
 Tracked files:
-file514.txt
-The file 'file909.txt' is tracked.
+file298.txt
+The file 'file369.txt' is tracked.
 Tracked files:
-file514.txt
-file909.txt
-Can't find 'file28.txt'.
+file298.txt
+file369.txt
+Can't find 'file984.txt'.
 ?[1;31m
 Start test 6?[0m
-Show commit logs.
+The username is Diane581.
+The file 'first_file.txt' is tracked.
+The file 'second_file.txt' is tracked.
+Changes are committed.
 ?[1;31m
 Start test 7?[0m
-Save changes.
+The username is Sofie26.
+The file 'first_file.txt' is tracked.
+The file 'second_file.txt' is tracked.
+No commits yet.
+Message was not passed.
+Changes are committed.
+commit 132369584
+Author: Sofie26
+Test message
+
+
+Nothing to commit.
+Changes are committed.
+commit -1266641508
+Author: Sofie26
+Test message3
+
+commit 132369584
+Author: Sofie26
+Test message
+
+
 ?[1;31m
 Start test 8?[0m
 Restore a file.
 ?[1;31m
 Start test 9?[0m
-'wrongArg548' is not a SVCS command.
+'wrongArg363' is not a SVCS command.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
