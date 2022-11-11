@@ -92,6 +92,17 @@ class VersionControlSystem {
                 }
             }
 
+            input[0] == "checkout" -> if (input.size == 1) println("Commit id was not passed.") else {
+                if (input[1] !in File(commits).listFiles()!!.map { it.name }) println("Commit does not exist.")
+                else {
+                    val checkoutRepo = File("vcs/commits/${input[1]}").listFiles()
+                    checkoutRepo!!.forEach {
+                        File(it.name).writeText(it.readText())
+                    }
+                    println("Switched to commit ${input[1]}.")
+                }
+            }
+
             else -> if (commands.containsKey(input[0])) println(commands[input[0]]) else println("'${input[0]}' is not a SVCS command.")
         }
     }

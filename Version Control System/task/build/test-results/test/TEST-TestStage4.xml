@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestStage3" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-11T19:22:35" hostname="DESKTOP-JA25RKB" time="2.133">
+<testsuite name="TestStage4" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-11-11T20:12:24" hostname="DESKTOP-JA25RKB" time="3.704">
   <properties/>
-  <testcase name="start" classname="TestStage3" time="2.133"/>
+  <testcase name="start" classname="TestStage4" time="3.704"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 The username is Max.
@@ -32,50 +32,66 @@ The username is John.
 ?[1;31m
 Start test 5?[0m
 Add a file to the index.
-The file 'file298.txt' is tracked.
+The file 'file468.txt' is tracked.
 Tracked files:
-file298.txt
-The file 'file369.txt' is tracked.
+file468.txt
+The file 'file987.txt' is tracked.
 Tracked files:
-file298.txt
-file369.txt
-Can't find 'file984.txt'.
+file468.txt
+file987.txt
+Can't find 'file506.txt'.
 ?[1;31m
 Start test 6?[0m
-The username is Diane581.
+The username is Sofie743.
 The file 'first_file.txt' is tracked.
 The file 'second_file.txt' is tracked.
 Changes are committed.
 ?[1;31m
 Start test 7?[0m
-The username is Sofie26.
+The username is Anna14.
 The file 'first_file.txt' is tracked.
 The file 'second_file.txt' is tracked.
 No commits yet.
 Message was not passed.
 Changes are committed.
-commit 132369584
-Author: Sofie26
+commit -2131112738
+Author: Anna14
 Test message
 
 
 Nothing to commit.
 Changes are committed.
-commit -1266641508
-Author: Sofie26
+commit 864466866
+Author: Anna14
 Test message3
 
-commit 132369584
-Author: Sofie26
+commit -2131112738
+Author: Anna14
 Test message
 
 
 ?[1;31m
 Start test 8?[0m
-Restore a file.
+The username is Christine773.
+The file 'first_file.txt' is tracked.
+The file 'second_file.txt' is tracked.
+Changes are committed.
+Changes are committed.
+Commit id was not passed.
+Commit does not exist.
+commit -1420979045
+Author: Christine773
+Second commit
+
+commit -210843406
+Author: Christine773
+First commit
+
+
+Switched to commit -210843406.
 ?[1;31m
 Start test 9?[0m
-'wrongArg363' is not a SVCS command.
+'wrongArg917' is not a SVCS command.
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
